@@ -1,0 +1,27 @@
+## Ignore for continuous deployment
+
+# Custom ignore
+_*.bat
+_*.cmd
+_*.sh
+_*.ps1
+*.pem
+*.pfx
+*.p12
+*.cer
+*.crt
+.vs/
+**/nginx/ssl_certs/**
+docker-compose.override.yml
+
+#Rclone
+rclone.exe
+.rclone.conf
+
+# Develop local
+
+# Terraform
+.terraform/
+.terraform.*
+.backend-config
+terraform/local-secrets.auto.tfvars
