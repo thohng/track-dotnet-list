@@ -6,9 +6,7 @@ The following sources were used:
    C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
 
 Project `WebApp` has the following updates to its packages
-   [net10.0]: No package updates available for this framework.
    [net8.0]: 
    Top-level Package                                  Requested   Resolved   Latest
    > Microsoft.AspNetCore.SpaServices.Extensions      8.*         8.0.21     9.0.10
 
-   [net9.0]: No package updates available for this framework.

@@ -10,7 +10,6 @@ Project `Hosting` has the following updates to its packages
    Top-level Package                               Requested   Resolved   Latest
    > Azure.Core                                    1.0.0       1.0.0      1.49.0
    > Microsoft.ApplicationInsights.AspNetCore      2.18.0      2.18.0     2.23.0
-   > MinVer                                        5.*         5.0.0      6.0.0 
 
    Transitive Package                                                  Resolved   Latest
    > Microsoft.ApplicationInsights                                     2.18.0     2.23.0
@@ -61,7 +60,6 @@ Project `Hosting` has the following updates to its packages
    > Azure.Core                                       1.0.0       1.0.0      1.49.0
    > Microsoft.ApplicationInsights.AspNetCore         2.18.0      2.18.0     2.23.0
    > Microsoft.AspNetCore.SpaServices.Extensions      8.0.0       8.0.0      9.0.10
-   > MinVer                                           5.*         5.0.0      6.0.0 
 
    Transitive Package                                                  Resolved   Latest
    > Microsoft.ApplicationInsights                                     2.18.0     2.23.0
@@ -115,7 +113,6 @@ Project `Hosting` has the following updates to its packages
    > Azure.Core                                       1.0.0       1.0.0      1.49.0
    > Microsoft.ApplicationInsights.AspNetCore         2.18.0      2.18.0     2.23.0
    > Microsoft.AspNetCore.SpaServices.Extensions      9.0.0       9.0.0      9.0.10
-   > MinVer                                           5.*         5.0.0      6.0.0 
 
    Transitive Package                                                  Resolved   Latest
    > Microsoft.ApplicationInsights                                     2.18.0     2.23.0

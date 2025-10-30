@@ -1,0 +1,54 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+Project 'WebApp' has the following package references
+   [net10.0]: 
+   Top-level Package                                   Requested   Resolved             
+   > Azure.Identity                                    1.*         1.17.0               
+   > Microsoft.ApplicationInsights.AspNetCore          2.*         2.23.0               
+   > Microsoft.AspNetCore.SpaServices.Extensions       10.*-*      10.0.0-rc.2.25502.107
+   > Microsoft.Bcl.AsyncInterfaces                     10.*-*      10.0.0-rc.2.25502.107
+   > Microsoft.Extensions.DependencyModel              10.*-*      10.0.0-rc.2.25502.107
+   > Microsoft.Identity.Client.Extensions.Msal         4.*         4.78.0               
+   > Microsoft.IdentityModel.Abstractions              8.*         8.14.0               
+   > Microsoft.Win32.SystemEvents                      10.*-*      10.0.0-rc.2.25502.107
+   > MinVer                                            6.*         6.0.0                
+   > NetLah.Abstractions                               1.*         1.0.0                
+   > NetLah.AssemblyInfo.BuildTime.Target              1.*         1.0.0                
+   > NetLah.Extensions.Configuration                   1.*-*       1.0.0                
+   > NetLah.Extensions.HttpOverrides                   1.*-*       1.0.0                
+   > NetLah.Extensions.Logging.Reference               1.*-*       1.0.0                
+   > NetLah.Extensions.Logging.Serilog                 1.*-*       1.0.0                
+   > NetLah.Extensions.Logging.Serilog.AspNetCore      1.*-*       1.0.0                
+   > Serilog                                           4.*         4.3.0                
+   > Serilog.AspNetCore                                9.*         9.0.0                
+   > Serilog.Enrichers.CorrelationId                   3.*         3.0.1                
+   > Serilog.Enrichers.Environment                     3.*         3.0.1                
+   > Serilog.Enrichers.Thread                          4.*         4.0.0                
+   > Serilog.Extensions.Hosting                        9.*         9.0.0                
+   > Serilog.Extensions.Logging                        9.*         9.0.2                
+   > Serilog.Formatting.Compact                        3.*         3.0.0                
+   > Serilog.Settings.Configuration                    9.*         9.0.0                
+   > Serilog.Sinks.Console                             6.*         6.0.0                
+   > Serilog.Sinks.Debug                               3.*         3.0.0                
+   > Serilog.Sinks.File                                7.*         7.0.0                
+   > Serilog.Sinks.PeriodicBatching                    5.*         5.0.0                
+   > Serilog.Sinks.Seq                                 9.*         9.0.0                
+   > System.Configuration.ConfigurationManager         10.*-*      10.0.0-rc.2.25502.107
+   > System.Diagnostics.PerformanceCounter             10.*-*      10.0.0-rc.2.25502.107
+   > System.Drawing.Common                             10.*-*      10.0.0-rc.2.25502.107
+   > System.IO.FileSystem.AccessControl                5.*         5.0.0                
+   > System.Memory.Data                                10.*-*      10.0.0-rc.2.25502.107
+
+   Transitive Package                                                  Resolved             
+   > Azure.Core                                                        1.49.0               
+   > Microsoft.ApplicationInsights                                     2.23.0               
+   > Microsoft.ApplicationInsights.DependencyCollector                 2.23.0               
+   > Microsoft.ApplicationInsights.EventCounterCollector               2.23.0               
+   > Microsoft.ApplicationInsights.PerfCounterCollector                2.23.0               
+   > Microsoft.ApplicationInsights.WindowsServer                       2.23.0               
+   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.23.0               
+   > Microsoft.Extensions.Logging.ApplicationInsights                  2.23.0               
+   > Microsoft.Identity.Client                                         4.78.0               
+   > System.ClientModel                                                1.7.0                
+   > System.Security.Cryptography.ProtectedData                        10.0.0-rc.2.25502.107
+
