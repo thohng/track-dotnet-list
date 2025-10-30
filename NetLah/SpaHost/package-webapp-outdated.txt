@@ -1,0 +1,55 @@
+  Determining projects to restore...
+C:\Work\NetLah\dotnet8\spaservices-hosting\src\WebApp\WebApp.csproj : warning NU1510: PackageReference System.Memory will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.
+C:\Work\NetLah\dotnet8\spaservices-hosting\src\WebApp\WebApp.csproj : warning NU1510: PackageReference System.Runtime.Extensions will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.
+C:\Work\NetLah\dotnet8\spaservices-hosting\src\WebApp\WebApp.csproj : warning NU1510: PackageReference System.Security.Principal.Windows will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.
+C:\Work\NetLah\dotnet8\spaservices-hosting\src\WebApp\WebApp.csproj : warning NU1510: PackageReference System.Runtime.CompilerServices.Unsafe will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.
+  All projects are up-to-date for restore.
+
+The following sources were used:
+   https://api.nuget.org/v3/index.json
+   C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+
+Project `WebApp` has the following updates to its packages
+   [net10.0]: 
+   Top-level Package      Requested   Resolved   Latest
+   > MinVer               5.*         5.0.0      6.0.0 
+
+   Transitive Package                                Resolved   Latest
+   > Microsoft.Bcl.AsyncInterfaces                   8.0.0      9.0.10
+   > Microsoft.NETCore.Platforms                     1.1.1      7.0.4 
+   > Microsoft.NETCore.Targets                       1.1.3      5.0.0 
+   > System.Configuration.ConfigurationManager       6.0.0      9.0.10
+   > System.Diagnostics.PerformanceCounter           6.0.0      9.0.10
+   > System.Drawing.Common                           6.0.0      9.0.10
+   > System.IO.FileSystem.AccessControl              4.7.0      5.0.0 
+   > System.Memory.Data                              8.0.1      9.0.10
+   > System.Security.Cryptography.ProtectedData      6.0.0      9.0.10
+   > System.Security.Permissions                     6.0.0      9.0.10
+   > System.Windows.Extensions                       6.0.0      9.0.10
+
+   [net8.0]: 
+   Top-level Package                                  Requested   Resolved   Latest
+   > Microsoft.AspNetCore.SpaServices.Extensions      8.*         8.0.21     9.0.10
+   > MinVer                                           5.*         5.0.0      6.0.0 
+
+   Transitive Package                 Resolved   Latest
+   > Microsoft.NETCore.Platforms      1.1.1      7.0.4 
+   > Microsoft.NETCore.Targets        1.1.3      5.0.0 
+
+   [net9.0]: 
+   Top-level Package      Requested   Resolved   Latest
+   > MinVer               5.*         5.0.0      6.0.0 
+
+   Transitive Package                                Resolved   Latest
+   > Microsoft.Bcl.AsyncInterfaces                   8.0.0      9.0.10
+   > Microsoft.Extensions.DependencyModel            9.0.0      9.0.10
+   > Microsoft.NETCore.Platforms                     1.1.1      7.0.4 
+   > Microsoft.NETCore.Targets                       1.1.3      5.0.0 
+   > System.Configuration.ConfigurationManager       6.0.0      9.0.10
+   > System.Diagnostics.PerformanceCounter           6.0.0      9.0.10
+   > System.Drawing.Common                           6.0.0      9.0.10
+   > System.Memory.Data                              8.0.1      9.0.10
+   > System.Security.Cryptography.ProtectedData      6.0.0      9.0.10
+   > System.Security.Permissions                     6.0.0      9.0.10
+   > System.Windows.Extensions                       6.0.0      9.0.10
+

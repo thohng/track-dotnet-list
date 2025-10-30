@@ -1,0 +1,23 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+
+The following sources were used:
+   https://api.nuget.org/v3/index.json
+   C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+
+Project `Hosting` has the following vulnerable packages
+   [net10.0]: 
+   Transitive Package           Resolved   Severity   Advisory URL                                     
+   > Newtonsoft.Json            11.0.2     High       https://github.com/advisories/GHSA-5crp-9r3c-p9vr
+   > System.Drawing.Common      4.7.0      Critical   https://github.com/advisories/GHSA-rxg9-xrhp-64gj
+
+   [net8.0]: 
+   Transitive Package           Resolved   Severity   Advisory URL                                     
+   > Newtonsoft.Json            11.0.2     High       https://github.com/advisories/GHSA-5crp-9r3c-p9vr
+   > System.Drawing.Common      4.7.0      Critical   https://github.com/advisories/GHSA-rxg9-xrhp-64gj
+
+   [net9.0]: 
+   Transitive Package           Resolved   Severity   Advisory URL                                     
+   > Newtonsoft.Json            11.0.2     High       https://github.com/advisories/GHSA-5crp-9r3c-p9vr
+   > System.Drawing.Common      4.7.0      Critical   https://github.com/advisories/GHSA-rxg9-xrhp-64gj
+
