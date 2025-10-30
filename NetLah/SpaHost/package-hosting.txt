@@ -1,5 +1,5 @@
   Determining projects to restore...
-  Restored C:\Work\NetLah\dotnet8\spaservices-hosting\src\Hosting\Hosting.csproj (in 2.05 sec).
+  Restored C:\Work\NetLah\dotnet8\spaservices-hosting\src\Hosting\Hosting.csproj (in 430 ms).
 Project 'Hosting' has the following package references
    [net10.0]: 
    Top-level Package                                  Requested            Resolved                
