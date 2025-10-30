@@ -5,16 +5,4 @@ The following sources were used:
    https://api.nuget.org/v3/index.json
    C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
 
-Project `WebApp` has the following vulnerable packages
-   [net10.0]: 
-   Transitive Package           Resolved   Severity   Advisory URL                                     
-   > System.Drawing.Common      4.7.0      Critical   https://github.com/advisories/GHSA-rxg9-xrhp-64gj
-
-   [net8.0]: 
-   Transitive Package           Resolved   Severity   Advisory URL                                     
-   > System.Drawing.Common      4.7.0      Critical   https://github.com/advisories/GHSA-rxg9-xrhp-64gj
-
-   [net9.0]: 
-   Transitive Package           Resolved   Severity   Advisory URL                                     
-   > System.Drawing.Common      4.7.0      Critical   https://github.com/advisories/GHSA-rxg9-xrhp-64gj
-
+The given project `WebApp` has no vulnerable packages given the current sources.

@@ -6,7 +6,7 @@ Project 'Hosting' has the following package references
    > Azure.Core                                       1.0.0       1.0.0   
    > Microsoft.ApplicationInsights.AspNetCore         2.18.0      2.18.0  
    > Microsoft.AspNetCore.SpaServices.Extensions      8.0.0       8.0.0   
-   > MinVer                                           5.*         5.0.0   
+   > MinVer                                           6.*         6.0.0   
    > NetLah.Abstractions                              1.0.0       1.0.0   
    > NetLah.AssemblyInfo.BuildTime.Target             1.*         1.0.0   
    > NetLah.Extensions.HttpOverrides                  1.0.0       1.0.0   

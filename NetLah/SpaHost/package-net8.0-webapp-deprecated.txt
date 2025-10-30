@@ -5,17 +5,4 @@ The following sources were used:
    https://api.nuget.org/v3/index.json
    C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
 
-Project `WebApp` has the following deprecated packages
-   [net8.0]: 
-   Transitive Package                                                  Resolved   Reason(s)      Alternative
-   > Microsoft.ApplicationInsights                                     2.18.0     Other                     
-   > Microsoft.ApplicationInsights.AspNetCore                          2.18.0     Other                     
-   > Microsoft.ApplicationInsights.DependencyCollector                 2.18.0     Other                     
-   > Microsoft.ApplicationInsights.EventCounterCollector               2.18.0     Other                     
-   > Microsoft.ApplicationInsights.PerfCounterCollector                2.18.0     Other                     
-   > Microsoft.ApplicationInsights.WindowsServer                       2.18.0     Other                     
-   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.18.0     Other                     
-   > Microsoft.Extensions.Logging.ApplicationInsights                  2.18.0     Other                     
-   > Microsoft.Identity.Client                                         4.76.0     CriticalBugs              
-   > Microsoft.IdentityModel.Abstractions                              6.35.0     Legacy                    
-
+The given project `WebApp` has no deprecated packages given the current sources.
