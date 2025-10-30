@@ -1,6 +1,5 @@
   Determining projects to restore...
-  Restored C:\Work\NetLah\dotnet8\spaservices-hosting\src\WebApp\WebApp.csproj (in 432 ms).
-  1 of 2 projects are up-to-date for restore.
+  All projects are up-to-date for restore.
 Project 'WebApp' has the following package references
    [net10.0]: 
    Top-level Package                                   Requested   Resolved

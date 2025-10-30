@@ -1,0 +1,39 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+
+The following sources were used:
+   https://api.nuget.org/v3/index.json
+   C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+
+Project `WebApp` has the following updates to its packages
+   [net10.0]: 
+   Top-level Package      Requested   Resolved   Latest
+   > MinVer               5.*         5.0.0      6.0.0 
+
+   Transitive Package                                                  Resolved   Latest
+   > Microsoft.ApplicationInsights                                     2.18.0     2.23.0
+   > Microsoft.ApplicationInsights.AspNetCore                          2.18.0     2.23.0
+   > Microsoft.ApplicationInsights.DependencyCollector                 2.18.0     2.23.0
+   > Microsoft.ApplicationInsights.EventCounterCollector               2.18.0     2.23.0
+   > Microsoft.ApplicationInsights.PerfCounterCollector                2.18.0     2.23.0
+   > Microsoft.ApplicationInsights.WindowsServer                       2.18.0     2.23.0
+   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.18.0     2.23.0
+   > Microsoft.Bcl.AsyncInterfaces                                     8.0.0      9.0.10
+   > Microsoft.Extensions.Logging.ApplicationInsights                  2.18.0     2.23.0
+   > Microsoft.Identity.Client                                         4.76.0     4.78.0
+   > Microsoft.Identity.Client.Extensions.Msal                         4.76.0     4.78.0
+   > Microsoft.IdentityModel.Abstractions                              6.35.0     8.14.0
+   > Microsoft.NETCore.Platforms                                       3.1.0      7.0.4 
+   > Microsoft.Win32.SystemEvents                                      4.7.0      9.0.10
+   > Serilog                                                           4.2.0      4.3.0 
+   > Serilog.Extensions.Logging                                        9.0.0      9.0.2 
+   > Serilog.Sinks.File                                                6.0.0      7.0.0 
+   > System.Configuration.ConfigurationManager                         4.7.0      9.0.10
+   > System.Diagnostics.PerformanceCounter                             4.7.0      9.0.10
+   > System.Drawing.Common                                             4.7.0      9.0.10
+   > System.IO.FileSystem.AccessControl                                4.7.0      5.0.0 
+   > System.Memory.Data                                                8.0.1      9.0.10
+   > System.Security.Cryptography.ProtectedData                        4.7.0      9.0.10
+   > System.Security.Permissions                                       4.7.0      9.0.10
+   > System.Windows.Extensions                                         4.7.0      9.0.10
+
