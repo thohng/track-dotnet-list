@@ -8,5 +8,5 @@ The following sources were used:
 Project `WebApp` has the following updates to its packages
    [net8.0]: 
    Top-level Package                                  Requested   Resolved   Latest
-   > Microsoft.AspNetCore.SpaServices.Extensions      8.*         8.0.21     9.0.10
+   > Microsoft.AspNetCore.SpaServices.Extensions      8.*         8.0.22     10.0.0
 

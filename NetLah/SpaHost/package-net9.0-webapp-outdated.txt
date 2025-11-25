@@ -5,4 +5,8 @@ The following sources were used:
    https://api.nuget.org/v3/index.json
    C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
 
-The given project `WebApp` has no updates given the current sources.
+Project `WebApp` has the following updates to its packages
+   [net9.0]: 
+   Top-level Package                                  Requested   Resolved   Latest
+   > Microsoft.AspNetCore.SpaServices.Extensions      9.*         9.0.11     10.0.0
+
