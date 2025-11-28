@@ -1,18 +1,9 @@
   Determining projects to restore...
-  Restored C:\Work\TEC\idp\src\IdentityModel\Idp.IdentityModel.csproj (in 461 ms).
-  Restored C:\Work\TEC\idp\src\Abstractions\Idp.Abstractions.csproj (in 461 ms).
-  Restored C:\Work\TEC\idp\src\SharedCache\Idp.SharedCache.csproj (in 545 ms).
-  Restored C:\Work\TEC\idp\src\Identity\Idp.Identity.csproj (in 597 ms).
-  Restored C:\Work\TEC\idp\src\EntityModel\Idp.EntityModel.csproj (in 589 ms).
-  Restored C:\Work\TEC\idp\src\Data.Npgsql\Idp.Data.Npgsql.csproj (in 593 ms).
-  Restored C:\Work\TEC\idp\src\Data.SqlServer\Idp.Data.SqlServer.csproj (in 653 ms).
-  Restored C:\Work\TEC\idp\src\Server\Idp.Server.csproj (in 859 ms).
-  Restored C:\Work\TEC\idp\src\Tools\Idp.Tools.csproj (in 860 ms).
+  All projects are up-to-date for restore.
 Project 'Idp.Tools' has the following package references
    [net10.0]: 
    Top-level Package                                           Requested   Resolved   
    > EFCore.NamingConventions                                  10.*-*      10.0.0-rc.2
-   > Microsoft.EntityFrameworkCore.SqlServer                   10.*-*      10.0.0     
    > Microsoft.Extensions.Configuration.UserSecrets            10.*        10.0.0     
    > Microsoft.Extensions.Options.ConfigurationExtensions      10.*        10.0.0     
    > MinVer                                                    6.*         6.0.0      
@@ -26,11 +17,12 @@ Project 'Idp.Tools' has the following package references
    > Azure.Communication.Email                                    1.1.0         
    > Azure.Core                                                   1.50.0        
    > Azure.Identity                                               1.14.2        
+   > Duende.IdentityModel                                         8.0.0-rc.1    
    > EnergyCompany.ApiModel                                       1.0.0-preview1
    > EnergyCompany.EnergyPlatform.ProfileModel                    1.0.0-preview1
    > Humanizer.Core                                               2.14.1        
-   > IdentityModel                                                7.0.0         
-   > Microsoft.AspNetCore.Authentication.OpenIdConnect            9.0.0         
+   > IdentityModel                                                6.0.0         
+   > Microsoft.AspNetCore.Authentication.OpenIdConnect            10.0.0        
    > Microsoft.AspNetCore.Cryptography.Internal                   10.0.0        
    > Microsoft.AspNetCore.Cryptography.KeyDerivation              10.0.0        
    > Microsoft.AspNetCore.Identity.EntityFrameworkCore            10.0.0        
@@ -44,6 +36,7 @@ Project 'Idp.Tools' has the following package references
    > Microsoft.EntityFrameworkCore.Abstractions                   10.0.0        
    > Microsoft.EntityFrameworkCore.Analyzers                      10.0.0        
    > Microsoft.EntityFrameworkCore.Relational                     10.0.0        
+   > Microsoft.EntityFrameworkCore.SqlServer                      10.0.0        
    > Microsoft.Extensions.Caching.Abstractions                    10.0.0        
    > Microsoft.Extensions.Caching.Cosmos                          1.8.0         
    > Microsoft.Extensions.Caching.Memory                          10.0.0        
@@ -114,15 +107,14 @@ Project 'Idp.Tools' has the following package references
    > System.Memory.Data                                           8.0.1         
    > System.Security.Cryptography.Pkcs                            9.0.4         
    > System.Security.Cryptography.ProtectedData                   9.0.4         
-   > Tec.IdentityServer4                                          7.0.0         
-   > Tec.IdentityServer4.EntityFramework                          7.0.0         
-   > Tec.IdentityServer4.EntityFramework.Storage                  7.0.0         
-   > Tec.IdentityServer4.Storage                                  7.0.0         
+   > Tec.IdentityServer4                                          8.0.0-a1.1    
+   > Tec.IdentityServer4.EntityFramework                          8.0.0-a1.1    
+   > Tec.IdentityServer4.EntityFramework.Storage                  8.0.0-a1.1    
+   > Tec.IdentityServer4.Storage                                  8.0.0-a1.1    
 
    [net6.0]: 
    Top-level Package                                           Requested   Resolved  
    > EFCore.NamingConventions                                  7.*         7.0.2     
-   > Microsoft.EntityFrameworkCore.SqlServer                   7.*         7.0.20    
    > Microsoft.Extensions.Configuration.UserSecrets            8.*         8.0.1     
    > Microsoft.Extensions.Options.ConfigurationExtensions      8.*         8.0.0     
    > MinVer                                                    6.*         6.0.0     
@@ -136,10 +128,11 @@ Project 'Idp.Tools' has the following package references
    > Azure.Communication.Email                                    1.1.0         
    > Azure.Core                                                   1.50.0        
    > Azure.Identity                                               1.11.4        
+   > Duende.IdentityModel                                         7.1.0         
    > EnergyCompany.ApiModel                                       1.0.0-preview1
    > EnergyCompany.EnergyPlatform.ProfileModel                    1.0.0-preview1
    > Humanizer.Core                                               2.14.1        
-   > IdentityModel                                                7.0.0         
+   > IdentityModel                                                6.0.0         
    > Microsoft.AspNetCore.Authentication.OpenIdConnect            6.0.0         
    > Microsoft.AspNetCore.Cryptography.Internal                   8.0.22        
    > Microsoft.AspNetCore.Cryptography.KeyDerivation              8.0.22        
@@ -155,6 +148,7 @@ Project 'Idp.Tools' has the following package references
    > Microsoft.EntityFrameworkCore.Abstractions                   7.0.20        
    > Microsoft.EntityFrameworkCore.Analyzers                      7.0.20        
    > Microsoft.EntityFrameworkCore.Relational                     7.0.20        
+   > Microsoft.EntityFrameworkCore.SqlServer                      7.0.20        
    > Microsoft.Extensions.Caching.Abstractions                    8.0.0         
    > Microsoft.Extensions.Caching.Cosmos                          1.8.0         
    > Microsoft.Extensions.Caching.Memory                          7.0.0         
@@ -233,15 +227,14 @@ Project 'Idp.Tools' has the following package references
    > System.Text.Encodings.Web                                    8.0.0         
    > System.Text.Json                                             8.0.6         
    > System.Windows.Extensions                                    6.0.0         
-   > Tec.IdentityServer4                                          7.0.0         
-   > Tec.IdentityServer4.EntityFramework                          7.0.0         
-   > Tec.IdentityServer4.EntityFramework.Storage                  7.0.0         
-   > Tec.IdentityServer4.Storage                                  7.0.0         
+   > Tec.IdentityServer4                                          8.0.0-a1.1    
+   > Tec.IdentityServer4.EntityFramework                          8.0.0-a1.1    
+   > Tec.IdentityServer4.EntityFramework.Storage                  8.0.0-a1.1    
+   > Tec.IdentityServer4.Storage                                  8.0.0-a1.1    
 
    [net8.0]: 
    Top-level Package                                           Requested   Resolved  
    > EFCore.NamingConventions                                  9.*         9.0.0     
-   > Microsoft.EntityFrameworkCore.SqlServer                   9.*         9.0.11    
    > Microsoft.Extensions.Configuration.UserSecrets            10.*        10.0.0    
    > Microsoft.Extensions.Options.ConfigurationExtensions      10.*        10.0.0    
    > MinVer                                                    6.*         6.0.0     
@@ -255,10 +248,11 @@ Project 'Idp.Tools' has the following package references
    > Azure.Communication.Email                                    1.1.0         
    > Azure.Core                                                   1.50.0        
    > Azure.Identity                                               1.14.2        
+   > Duende.IdentityModel                                         8.0.0-rc.1    
    > EnergyCompany.ApiModel                                       1.0.0-preview1
    > EnergyCompany.EnergyPlatform.ProfileModel                    1.0.0-preview1
    > Humanizer.Core                                               2.14.1        
-   > IdentityModel                                                7.0.0         
+   > IdentityModel                                                6.0.0         
    > Microsoft.AspNetCore.Authentication.OpenIdConnect            8.0.0         
    > Microsoft.AspNetCore.Cryptography.Internal                   10.0.0        
    > Microsoft.AspNetCore.Cryptography.KeyDerivation              10.0.0        
@@ -267,13 +261,14 @@ Project 'Idp.Tools' has the following package references
    > Microsoft.Bcl.AsyncInterfaces                                8.0.0         
    > Microsoft.Bcl.Cryptography                                   8.0.0         
    > Microsoft.Bcl.HashCode                                       1.1.0         
-   > Microsoft.Bcl.Memory                                         9.0.0         
+   > Microsoft.Bcl.Memory                                         10.0.0        
    > Microsoft.Data.SqlClient                                     6.1.3         
    > Microsoft.Data.SqlClient.SNI.runtime                         6.0.2         
    > Microsoft.EntityFrameworkCore                                9.0.11        
    > Microsoft.EntityFrameworkCore.Abstractions                   9.0.11        
    > Microsoft.EntityFrameworkCore.Analyzers                      9.0.11        
    > Microsoft.EntityFrameworkCore.Relational                     9.0.11        
+   > Microsoft.EntityFrameworkCore.SqlServer                      9.0.11        
    > Microsoft.Extensions.Caching.Abstractions                    10.0.0        
    > Microsoft.Extensions.Caching.Cosmos                          1.8.0         
    > Microsoft.Extensions.Caching.Memory                          9.0.11        
@@ -349,15 +344,14 @@ Project 'Idp.Tools' has the following package references
    > System.Security.Cryptography.ProtectedData                   8.0.0         
    > System.Text.Encodings.Web                                    10.0.0        
    > System.Text.Json                                             10.0.0        
-   > Tec.IdentityServer4                                          7.0.0         
-   > Tec.IdentityServer4.EntityFramework                          7.0.0         
-   > Tec.IdentityServer4.EntityFramework.Storage                  7.0.0         
-   > Tec.IdentityServer4.Storage                                  7.0.0         
+   > Tec.IdentityServer4                                          8.0.0-a1.1    
+   > Tec.IdentityServer4.EntityFramework                          8.0.0-a1.1    
+   > Tec.IdentityServer4.EntityFramework.Storage                  8.0.0-a1.1    
+   > Tec.IdentityServer4.Storage                                  8.0.0-a1.1    
 
    [net9.0]: 
    Top-level Package                                           Requested   Resolved  
    > EFCore.NamingConventions                                  9.*         9.0.0     
-   > Microsoft.EntityFrameworkCore.SqlServer                   9.*         9.0.11    
    > Microsoft.Extensions.Configuration.UserSecrets            10.*        10.0.0    
    > Microsoft.Extensions.Options.ConfigurationExtensions      10.*        10.0.0    
    > MinVer                                                    6.*         6.0.0     
@@ -371,10 +365,11 @@ Project 'Idp.Tools' has the following package references
    > Azure.Communication.Email                                    1.1.0         
    > Azure.Core                                                   1.50.0        
    > Azure.Identity                                               1.14.2        
+   > Duende.IdentityModel                                         8.0.0-rc.1    
    > EnergyCompany.ApiModel                                       1.0.0-preview1
    > EnergyCompany.EnergyPlatform.ProfileModel                    1.0.0-preview1
    > Humanizer.Core                                               2.14.1        
-   > IdentityModel                                                7.0.0         
+   > IdentityModel                                                6.0.0         
    > Microsoft.AspNetCore.Authentication.OpenIdConnect            9.0.0         
    > Microsoft.AspNetCore.Cryptography.Internal                   10.0.0        
    > Microsoft.AspNetCore.Cryptography.KeyDerivation              10.0.0        
@@ -383,12 +378,14 @@ Project 'Idp.Tools' has the following package references
    > Microsoft.Bcl.AsyncInterfaces                                8.0.0         
    > Microsoft.Bcl.Cryptography                                   9.0.4         
    > Microsoft.Bcl.HashCode                                       1.1.0         
+   > Microsoft.Bcl.Memory                                         10.0.0        
    > Microsoft.Data.SqlClient                                     6.1.3         
    > Microsoft.Data.SqlClient.SNI.runtime                         6.0.2         
    > Microsoft.EntityFrameworkCore                                9.0.11        
    > Microsoft.EntityFrameworkCore.Abstractions                   9.0.11        
    > Microsoft.EntityFrameworkCore.Analyzers                      9.0.11        
    > Microsoft.EntityFrameworkCore.Relational                     9.0.11        
+   > Microsoft.EntityFrameworkCore.SqlServer                      9.0.11        
    > Microsoft.Extensions.Caching.Abstractions                    10.0.0        
    > Microsoft.Extensions.Caching.Cosmos                          1.8.0         
    > Microsoft.Extensions.Caching.Memory                          9.0.11        
@@ -463,8 +460,8 @@ Project 'Idp.Tools' has the following package references
    > System.Security.Cryptography.ProtectedData                   9.0.4         
    > System.Text.Encodings.Web                                    10.0.0        
    > System.Text.Json                                             10.0.0        
-   > Tec.IdentityServer4                                          7.0.0         
-   > Tec.IdentityServer4.EntityFramework                          7.0.0         
-   > Tec.IdentityServer4.EntityFramework.Storage                  7.0.0         
-   > Tec.IdentityServer4.Storage                                  7.0.0         
+   > Tec.IdentityServer4                                          8.0.0-a1.1    
+   > Tec.IdentityServer4.EntityFramework                          8.0.0-a1.1    
+   > Tec.IdentityServer4.EntityFramework.Storage                  8.0.0-a1.1    
+   > Tec.IdentityServer4.Storage                                  8.0.0-a1.1    
 

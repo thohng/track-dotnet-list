@@ -1,8 +1,5 @@
   Determining projects to restore...
-  Restored C:\Work\TEC\idp\src\Azure.Common\Idp.Azure.Common.csproj (in 917 ms).
-  Restored C:\Work\TEC\idp\src\Hosting\Idp.Hosting.csproj (in 917 ms).
-  Restored C:\Work\TEC\idp\src\WebApi\Idp.WebApi.csproj (in 1.45 sec).
-  6 of 9 projects are up-to-date for restore.
+  All projects are up-to-date for restore.
 Project 'Idp.WebApi' has the following package references
    [net10.0]: 
    Top-level Package                                             Requested   Resolved      
@@ -17,11 +14,11 @@ Project 'Idp.WebApi' has the following package references
    > Azure.Security.KeyVault.Secrets                             4.*         4.8.0         
    > Azure.Storage.Blobs                                         12.*        12.26.0       
    > Azure.Storage.Common                                        12.*        12.25.0       
+   > Duende.IdentityModel                                        8.*-*       8.0.0-rc.1    
    > EFCore.NamingConventions                                    10.*-*      10.0.0-rc.2   
    > EnergyCompany.ApiModel                                      1.*-*       1.0.0-preview1
    > EnergyCompany.EnergyPlatform.ProfileModel                   1.*-*       1.0.0-preview1
    > Humanizer.Core                                              2.*         2.14.1        
-   > IdentityModel                                               7.*         7.0.0         
    > Microsoft.ApplicationInsights                               2.*         2.23.0        
    > Microsoft.ApplicationInsights.AspNetCore                    2.*         2.23.0        
    > Microsoft.AspNetCore.Authentication.OpenIdConnect           10.*        10.0.0        
@@ -96,14 +93,14 @@ Project 'Idp.WebApi' has the following package references
    > Pipelines.Sockets.Unofficial                                2.*         2.2.16        
    > RabbitMQ.Client                                             6.2.2       6.2.2         
    > Serilog                                                     4.*         4.3.0         
-   > Serilog.AspNetCore                                          9.*         9.0.0         
+   > Serilog.AspNetCore                                          10.*        10.0.0        
    > Serilog.Enrichers.CorrelationId                             3.*         3.0.1         
    > Serilog.Enrichers.Environment                               3.*         3.0.1         
    > Serilog.Enrichers.Thread                                    4.*         4.0.0         
-   > Serilog.Extensions.Hosting                                  9.*         9.0.0         
+   > Serilog.Extensions.Hosting                                  10.*        10.0.0        
    > Serilog.Extensions.Logging                                  10.*        10.0.0        
    > Serilog.Formatting.Compact                                  3.*         3.0.0         
-   > Serilog.Settings.Configuration                              9.*         9.0.0         
+   > Serilog.Settings.Configuration                              10.*        10.0.0        
    > Serilog.Sinks.Console                                       6.*         6.1.1         
    > Serilog.Sinks.Debug                                         3.*         3.0.0         
    > Serilog.Sinks.File                                          7.*         7.0.0         
@@ -134,26 +131,27 @@ Project 'Idp.WebApi' has the following package references
    > System.Text.Json                                            10.*        10.0.0        
    > System.Threading.Channels                                   10.*        10.0.0        
    > System.Windows.Extensions                                   10.*        10.0.0        
-   > Tec.IdentityServer4.EntityFramework                         7.*-*       7.0.0         
+   > Tec.IdentityServer4.EntityFramework                         8.*-*       8.0.0-a1.1    
 
-   Transitive Package                                                  Resolved
-   > Microsoft.ApplicationInsights.DependencyCollector                 2.23.0  
-   > Microsoft.ApplicationInsights.EventCounterCollector               2.23.0  
-   > Microsoft.ApplicationInsights.PerfCounterCollector                2.23.0  
-   > Microsoft.ApplicationInsights.WindowsServer                       2.23.0  
-   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.23.0  
-   > Microsoft.Bcl.Cryptography                                        9.0.4   
-   > Microsoft.Data.SqlClient.SNI.runtime                              6.0.2   
-   > Microsoft.EntityFrameworkCore.Analyzers                           10.0.0  
-   > Microsoft.Extensions.ApiDescription.Server                        6.0.5   
-   > Microsoft.IdentityModel.Validators                                8.6.1   
-   > Microsoft.Kiota.Serialization.Multipart                           1.17.1  
-   > Microsoft.VisualStudio.Threading.Analyzers                        17.14.15
-   > Microsoft.VisualStudio.Threading.Only                             17.14.15
-   > System.IO.FileSystem.AccessControl                                4.7.0   
-   > Tec.IdentityServer4                                               7.0.0   
-   > Tec.IdentityServer4.EntityFramework.Storage                       7.0.0   
-   > Tec.IdentityServer4.Storage                                       7.0.0   
+   Transitive Package                                                  Resolved  
+   > IdentityModel                                                     6.0.0     
+   > Microsoft.ApplicationInsights.DependencyCollector                 2.23.0    
+   > Microsoft.ApplicationInsights.EventCounterCollector               2.23.0    
+   > Microsoft.ApplicationInsights.PerfCounterCollector                2.23.0    
+   > Microsoft.ApplicationInsights.WindowsServer                       2.23.0    
+   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.23.0    
+   > Microsoft.Bcl.Cryptography                                        9.0.4     
+   > Microsoft.Data.SqlClient.SNI.runtime                              6.0.2     
+   > Microsoft.EntityFrameworkCore.Analyzers                           10.0.0    
+   > Microsoft.Extensions.ApiDescription.Server                        6.0.5     
+   > Microsoft.IdentityModel.Validators                                8.6.1     
+   > Microsoft.Kiota.Serialization.Multipart                           1.17.1    
+   > Microsoft.VisualStudio.Threading.Analyzers                        17.14.15  
+   > Microsoft.VisualStudio.Threading.Only                             17.14.15  
+   > System.IO.FileSystem.AccessControl                                4.7.0     
+   > Tec.IdentityServer4                                               8.0.0-a1.1
+   > Tec.IdentityServer4.EntityFramework.Storage                       8.0.0-a1.1
+   > Tec.IdentityServer4.Storage                                       8.0.0-a1.1
 
    [net6.0]: 
    Top-level Package                                             Requested   Resolved      
@@ -168,11 +166,11 @@ Project 'Idp.WebApi' has the following package references
    > Azure.Security.KeyVault.Secrets                             4.*         4.8.0         
    > Azure.Storage.Blobs                                         12.*        12.26.0       
    > Azure.Storage.Common                                        12.*        12.25.0       
+   > Duende.IdentityModel                                        7.*         7.1.0         
    > EFCore.NamingConventions                                    7.*         7.0.2         
    > EnergyCompany.ApiModel                                      1.*-*       1.0.0-preview1
    > EnergyCompany.EnergyPlatform.ProfileModel                   1.*-*       1.0.0-preview1
    > Humanizer.Core                                              2.*         2.14.1        
-   > IdentityModel                                               7.*         7.0.0         
    > Microsoft.ApplicationInsights                               2.*         2.23.0        
    > Microsoft.ApplicationInsights.AspNetCore                    2.*         2.23.0        
    > Microsoft.AspNetCore.Authentication.OpenIdConnect           6.*         6.0.36        
@@ -285,28 +283,29 @@ Project 'Idp.WebApi' has the following package references
    > System.Text.Json                                            8.*         8.0.6         
    > System.Threading.Channels                                   8.*         8.0.0         
    > System.Windows.Extensions                                   8.*         8.0.0         
-   > Tec.IdentityServer4.EntityFramework                         7.*-*       7.0.0         
+   > Tec.IdentityServer4.EntityFramework                         8.*-*       8.0.0-a1.1    
 
-   Transitive Package                                                  Resolved
-   > Microsoft.ApplicationInsights.DependencyCollector                 2.23.0  
-   > Microsoft.ApplicationInsights.EventCounterCollector               2.23.0  
-   > Microsoft.ApplicationInsights.PerfCounterCollector                2.23.0  
-   > Microsoft.ApplicationInsights.WindowsServer                       2.23.0  
-   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.23.0  
-   > Microsoft.AspNetCore.Cryptography.Internal                        8.0.22  
-   > Microsoft.Bcl.TimeProvider                                        8.0.1   
-   > Microsoft.Data.SqlClient.SNI.runtime                              5.2.0   
-   > Microsoft.EntityFrameworkCore.Analyzers                           7.0.20  
-   > Microsoft.Extensions.ApiDescription.Server                        6.0.5   
-   > Microsoft.IdentityModel.Validators                                8.6.1   
-   > Microsoft.Kiota.Serialization.Multipart                           1.17.1  
-   > Microsoft.VisualStudio.Threading.Analyzers                        17.13.61
-   > Microsoft.VisualStudio.Threading.Only                             17.13.61
-   > System.IO.Pipelines                                               8.0.0   
-   > System.Security.Cryptography.Cng                                  5.0.0   
-   > Tec.IdentityServer4                                               7.0.0   
-   > Tec.IdentityServer4.EntityFramework.Storage                       7.0.0   
-   > Tec.IdentityServer4.Storage                                       7.0.0   
+   Transitive Package                                                  Resolved  
+   > IdentityModel                                                     6.0.0     
+   > Microsoft.ApplicationInsights.DependencyCollector                 2.23.0    
+   > Microsoft.ApplicationInsights.EventCounterCollector               2.23.0    
+   > Microsoft.ApplicationInsights.PerfCounterCollector                2.23.0    
+   > Microsoft.ApplicationInsights.WindowsServer                       2.23.0    
+   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.23.0    
+   > Microsoft.AspNetCore.Cryptography.Internal                        8.0.22    
+   > Microsoft.Bcl.TimeProvider                                        8.0.1     
+   > Microsoft.Data.SqlClient.SNI.runtime                              5.2.0     
+   > Microsoft.EntityFrameworkCore.Analyzers                           7.0.20    
+   > Microsoft.Extensions.ApiDescription.Server                        6.0.5     
+   > Microsoft.IdentityModel.Validators                                8.6.1     
+   > Microsoft.Kiota.Serialization.Multipart                           1.17.1    
+   > Microsoft.VisualStudio.Threading.Analyzers                        17.13.61  
+   > Microsoft.VisualStudio.Threading.Only                             17.13.61  
+   > System.IO.Pipelines                                               8.0.0     
+   > System.Security.Cryptography.Cng                                  5.0.0     
+   > Tec.IdentityServer4                                               8.0.0-a1.1
+   > Tec.IdentityServer4.EntityFramework.Storage                       8.0.0-a1.1
+   > Tec.IdentityServer4.Storage                                       8.0.0-a1.1
 
    [net8.0]: 
    Top-level Package                                             Requested   Resolved      
@@ -321,11 +320,11 @@ Project 'Idp.WebApi' has the following package references
    > Azure.Security.KeyVault.Secrets                             4.*         4.8.0         
    > Azure.Storage.Blobs                                         12.*        12.26.0       
    > Azure.Storage.Common                                        12.*        12.25.0       
+   > Duende.IdentityModel                                        8.*-*       8.0.0-rc.1    
    > EFCore.NamingConventions                                    9.*         9.0.0         
    > EnergyCompany.ApiModel                                      1.*-*       1.0.0-preview1
    > EnergyCompany.EnergyPlatform.ProfileModel                   1.*-*       1.0.0-preview1
    > Humanizer.Core                                              2.*         2.14.1        
-   > IdentityModel                                               7.*         7.0.0         
    > Microsoft.ApplicationInsights                               2.*         2.23.0        
    > Microsoft.ApplicationInsights.AspNetCore                    2.*         2.23.0        
    > Microsoft.AspNetCore.Authentication.OpenIdConnect           8.*         8.0.22        
@@ -400,14 +399,14 @@ Project 'Idp.WebApi' has the following package references
    > Pipelines.Sockets.Unofficial                                2.*         2.2.16        
    > RabbitMQ.Client                                             6.2.2       6.2.2         
    > Serilog                                                     4.*         4.3.0         
-   > Serilog.AspNetCore                                          9.*         9.0.0         
+   > Serilog.AspNetCore                                          10.*        10.0.0        
    > Serilog.Enrichers.CorrelationId                             3.*         3.0.1         
    > Serilog.Enrichers.Environment                               3.*         3.0.1         
    > Serilog.Enrichers.Thread                                    4.*         4.0.0         
-   > Serilog.Extensions.Hosting                                  9.*         9.0.0         
+   > Serilog.Extensions.Hosting                                  10.*        10.0.0        
    > Serilog.Extensions.Logging                                  10.*        10.0.0        
    > Serilog.Formatting.Compact                                  3.*         3.0.0         
-   > Serilog.Settings.Configuration                              9.*         9.0.0         
+   > Serilog.Settings.Configuration                              10.*        10.0.0        
    > Serilog.Sinks.Console                                       6.*         6.1.1         
    > Serilog.Sinks.Debug                                         3.*         3.0.0         
    > Serilog.Sinks.File                                          7.*         7.0.0         
@@ -438,29 +437,31 @@ Project 'Idp.WebApi' has the following package references
    > System.Text.Json                                            10.*        10.0.0        
    > System.Threading.Channels                                   10.*        10.0.0        
    > System.Windows.Extensions                                   10.*        10.0.0        
-   > Tec.IdentityServer4.EntityFramework                         7.*-*       7.0.0         
+   > Tec.IdentityServer4.EntityFramework                         8.*-*       8.0.0-a1.1    
 
-   Transitive Package                                                  Resolved
-   > Microsoft.ApplicationInsights.DependencyCollector                 2.23.0  
-   > Microsoft.ApplicationInsights.EventCounterCollector               2.23.0  
-   > Microsoft.ApplicationInsights.PerfCounterCollector                2.23.0  
-   > Microsoft.ApplicationInsights.WindowsServer                       2.23.0  
-   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.23.0  
-   > Microsoft.AspNetCore.Cryptography.Internal                        10.0.0  
-   > Microsoft.Bcl.Cryptography                                        10.0.0  
-   > Microsoft.Data.SqlClient.SNI.runtime                              6.0.2   
-   > Microsoft.EntityFrameworkCore.Analyzers                           9.0.11  
-   > Microsoft.Extensions.ApiDescription.Server                        6.0.5   
-   > Microsoft.IdentityModel.Validators                                8.6.1   
-   > Microsoft.Kiota.Serialization.Multipart                           1.17.1  
-   > Microsoft.VisualStudio.Threading.Analyzers                        17.14.15
-   > Microsoft.VisualStudio.Threading.Only                             17.14.15
-   > System.Diagnostics.EventLog                                       10.0.0  
-   > System.IO.Pipelines                                               10.0.0  
-   > System.Threading.AccessControl                                    10.0.0  
-   > Tec.IdentityServer4                                               7.0.0   
-   > Tec.IdentityServer4.EntityFramework.Storage                       7.0.0   
-   > Tec.IdentityServer4.Storage                                       7.0.0   
+   Transitive Package                                                  Resolved  
+   > IdentityModel                                                     6.0.0     
+   > Microsoft.ApplicationInsights.DependencyCollector                 2.23.0    
+   > Microsoft.ApplicationInsights.EventCounterCollector               2.23.0    
+   > Microsoft.ApplicationInsights.PerfCounterCollector                2.23.0    
+   > Microsoft.ApplicationInsights.WindowsServer                       2.23.0    
+   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.23.0    
+   > Microsoft.AspNetCore.Cryptography.Internal                        10.0.0    
+   > Microsoft.Bcl.Cryptography                                        10.0.0    
+   > Microsoft.Bcl.Memory                                              10.0.0    
+   > Microsoft.Data.SqlClient.SNI.runtime                              6.0.2     
+   > Microsoft.EntityFrameworkCore.Analyzers                           9.0.11    
+   > Microsoft.Extensions.ApiDescription.Server                        6.0.5     
+   > Microsoft.IdentityModel.Validators                                8.6.1     
+   > Microsoft.Kiota.Serialization.Multipart                           1.17.1    
+   > Microsoft.VisualStudio.Threading.Analyzers                        17.14.15  
+   > Microsoft.VisualStudio.Threading.Only                             17.14.15  
+   > System.Diagnostics.EventLog                                       10.0.0    
+   > System.IO.Pipelines                                               10.0.0    
+   > System.Threading.AccessControl                                    10.0.0    
+   > Tec.IdentityServer4                                               8.0.0-a1.1
+   > Tec.IdentityServer4.EntityFramework.Storage                       8.0.0-a1.1
+   > Tec.IdentityServer4.Storage                                       8.0.0-a1.1
 
    [net9.0]: 
    Top-level Package                                             Requested   Resolved      
@@ -475,11 +476,11 @@ Project 'Idp.WebApi' has the following package references
    > Azure.Security.KeyVault.Secrets                             4.*         4.8.0         
    > Azure.Storage.Blobs                                         12.*        12.26.0       
    > Azure.Storage.Common                                        12.*        12.25.0       
+   > Duende.IdentityModel                                        8.*-*       8.0.0-rc.1    
    > EFCore.NamingConventions                                    9.*         9.0.0         
    > EnergyCompany.ApiModel                                      1.*-*       1.0.0-preview1
    > EnergyCompany.EnergyPlatform.ProfileModel                   1.*-*       1.0.0-preview1
    > Humanizer.Core                                              2.*         2.14.1        
-   > IdentityModel                                               7.*         7.0.0         
    > Microsoft.ApplicationInsights                               2.*         2.23.0        
    > Microsoft.ApplicationInsights.AspNetCore                    2.*         2.23.0        
    > Microsoft.AspNetCore.Authentication.OpenIdConnect           9.*         9.0.11        
@@ -554,14 +555,14 @@ Project 'Idp.WebApi' has the following package references
    > Pipelines.Sockets.Unofficial                                2.*         2.2.16        
    > RabbitMQ.Client                                             6.2.2       6.2.2         
    > Serilog                                                     4.*         4.3.0         
-   > Serilog.AspNetCore                                          9.*         9.0.0         
+   > Serilog.AspNetCore                                          10.*        10.0.0        
    > Serilog.Enrichers.CorrelationId                             3.*         3.0.1         
    > Serilog.Enrichers.Environment                               3.*         3.0.1         
    > Serilog.Enrichers.Thread                                    4.*         4.0.0         
-   > Serilog.Extensions.Hosting                                  9.*         9.0.0         
+   > Serilog.Extensions.Hosting                                  10.*        10.0.0        
    > Serilog.Extensions.Logging                                  10.*        10.0.0        
    > Serilog.Formatting.Compact                                  3.*         3.0.0         
-   > Serilog.Settings.Configuration                              9.*         9.0.0         
+   > Serilog.Settings.Configuration                              10.*        10.0.0        
    > Serilog.Sinks.Console                                       6.*         6.1.1         
    > Serilog.Sinks.Debug                                         3.*         3.0.0         
    > Serilog.Sinks.File                                          7.*         7.0.0         
@@ -592,27 +593,29 @@ Project 'Idp.WebApi' has the following package references
    > System.Text.Json                                            10.*        10.0.0        
    > System.Threading.Channels                                   10.*        10.0.0        
    > System.Windows.Extensions                                   10.*        10.0.0        
-   > Tec.IdentityServer4.EntityFramework                         7.*-*       7.0.0         
+   > Tec.IdentityServer4.EntityFramework                         8.*-*       8.0.0-a1.1    
 
-   Transitive Package                                                  Resolved
-   > Microsoft.ApplicationInsights.DependencyCollector                 2.23.0  
-   > Microsoft.ApplicationInsights.EventCounterCollector               2.23.0  
-   > Microsoft.ApplicationInsights.PerfCounterCollector                2.23.0  
-   > Microsoft.ApplicationInsights.WindowsServer                       2.23.0  
-   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.23.0  
-   > Microsoft.AspNetCore.Cryptography.Internal                        10.0.0  
-   > Microsoft.Bcl.Cryptography                                        10.0.0  
-   > Microsoft.Data.SqlClient.SNI.runtime                              6.0.2   
-   > Microsoft.EntityFrameworkCore.Analyzers                           9.0.11  
-   > Microsoft.Extensions.ApiDescription.Server                        6.0.5   
-   > Microsoft.IdentityModel.Validators                                8.6.1   
-   > Microsoft.Kiota.Serialization.Multipart                           1.17.1  
-   > Microsoft.VisualStudio.Threading.Analyzers                        17.14.15
-   > Microsoft.VisualStudio.Threading.Only                             17.14.15
-   > System.Diagnostics.EventLog                                       10.0.0  
-   > System.IO.Pipelines                                               10.0.0  
-   > System.Threading.AccessControl                                    10.0.0  
-   > Tec.IdentityServer4                                               7.0.0   
-   > Tec.IdentityServer4.EntityFramework.Storage                       7.0.0   
-   > Tec.IdentityServer4.Storage                                       7.0.0   
+   Transitive Package                                                  Resolved  
+   > IdentityModel                                                     6.0.0     
+   > Microsoft.ApplicationInsights.DependencyCollector                 2.23.0    
+   > Microsoft.ApplicationInsights.EventCounterCollector               2.23.0    
+   > Microsoft.ApplicationInsights.PerfCounterCollector                2.23.0    
+   > Microsoft.ApplicationInsights.WindowsServer                       2.23.0    
+   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.23.0    
+   > Microsoft.AspNetCore.Cryptography.Internal                        10.0.0    
+   > Microsoft.Bcl.Cryptography                                        10.0.0    
+   > Microsoft.Bcl.Memory                                              10.0.0    
+   > Microsoft.Data.SqlClient.SNI.runtime                              6.0.2     
+   > Microsoft.EntityFrameworkCore.Analyzers                           9.0.11    
+   > Microsoft.Extensions.ApiDescription.Server                        6.0.5     
+   > Microsoft.IdentityModel.Validators                                8.6.1     
+   > Microsoft.Kiota.Serialization.Multipart                           1.17.1    
+   > Microsoft.VisualStudio.Threading.Analyzers                        17.14.15  
+   > Microsoft.VisualStudio.Threading.Only                             17.14.15  
+   > System.Diagnostics.EventLog                                       10.0.0    
+   > System.IO.Pipelines                                               10.0.0    
+   > System.Threading.AccessControl                                    10.0.0    
+   > Tec.IdentityServer4                                               8.0.0-a1.1
+   > Tec.IdentityServer4.EntityFramework.Storage                       8.0.0-a1.1
+   > Tec.IdentityServer4.Storage                                       8.0.0-a1.1
 
