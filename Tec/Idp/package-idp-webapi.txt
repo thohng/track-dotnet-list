@@ -85,8 +85,8 @@ Project 'Idp.WebApi' has the following package references
    > NetLah.Extensions.EventAggregator                           1.*-*       1.0.0-rc2     
    > NetLah.Extensions.HttpOverrides                             1.*-*       1.0.1         
    > NetLah.Extensions.Logging.Reference                         1.*-*       1.0.0         
-   > NetLah.Extensions.Logging.Serilog                           1.*-*       1.0.1         
-   > NetLah.Extensions.Logging.Serilog.AspNetCore                1.*-*       1.0.1         
+   > NetLah.Extensions.Logging.Serilog                           1.*-*       1.0.2         
+   > NetLah.Extensions.Logging.Serilog.AspNetCore                1.*-*       1.0.2         
    > Newtonsoft.Json                                             13.0.*      13.0.4        
    > Npgsql                                                      10.*        10.0.0        
    > Npgsql.EntityFrameworkCore.PostgreSQL                       10.*        10.0.0        
@@ -166,11 +166,11 @@ Project 'Idp.WebApi' has the following package references
    > Azure.Security.KeyVault.Secrets                             4.*         4.8.0         
    > Azure.Storage.Blobs                                         12.*        12.26.0       
    > Azure.Storage.Common                                        12.*        12.25.0       
-   > Duende.IdentityModel                                        7.*         7.1.0         
    > EFCore.NamingConventions                                    7.*         7.0.2         
    > EnergyCompany.ApiModel                                      1.*-*       1.0.0-preview1
    > EnergyCompany.EnergyPlatform.ProfileModel                   1.*-*       1.0.0-preview1
    > Humanizer.Core                                              2.*         2.14.1        
+   > IdentityModel                                               7.*         7.0.0         
    > Microsoft.ApplicationInsights                               2.*         2.23.0        
    > Microsoft.ApplicationInsights.AspNetCore                    2.*         2.23.0        
    > Microsoft.AspNetCore.Authentication.OpenIdConnect           6.*         6.0.36        
@@ -237,8 +237,8 @@ Project 'Idp.WebApi' has the following package references
    > NetLah.Extensions.EventAggregator                           1.*-*       1.0.0-rc2     
    > NetLah.Extensions.HttpOverrides                             1.*-*       1.0.1         
    > NetLah.Extensions.Logging.Reference                         1.*-*       1.0.0         
-   > NetLah.Extensions.Logging.Serilog                           1.*-*       1.0.1         
-   > NetLah.Extensions.Logging.Serilog.AspNetCore                1.*-*       1.0.1         
+   > NetLah.Extensions.Logging.Serilog                           1.*-*       1.0.2         
+   > NetLah.Extensions.Logging.Serilog.AspNetCore                1.*-*       1.0.2         
    > Newtonsoft.Json                                             13.0.*      13.0.4        
    > Npgsql                                                      7.*         7.0.10        
    > Npgsql.EntityFrameworkCore.PostgreSQL                       7.*         7.0.18        
@@ -286,7 +286,6 @@ Project 'Idp.WebApi' has the following package references
    > Tec.IdentityServer4.EntityFramework                         8.*-*       8.0.0-a1.1    
 
    Transitive Package                                                  Resolved  
-   > IdentityModel                                                     6.0.0     
    > Microsoft.ApplicationInsights.DependencyCollector                 2.23.0    
    > Microsoft.ApplicationInsights.EventCounterCollector               2.23.0    
    > Microsoft.ApplicationInsights.PerfCounterCollector                2.23.0    
@@ -391,8 +390,8 @@ Project 'Idp.WebApi' has the following package references
    > NetLah.Extensions.EventAggregator                           1.*-*       1.0.0-rc2     
    > NetLah.Extensions.HttpOverrides                             1.*-*       1.0.1         
    > NetLah.Extensions.Logging.Reference                         1.*-*       1.0.0         
-   > NetLah.Extensions.Logging.Serilog                           1.*-*       1.0.1         
-   > NetLah.Extensions.Logging.Serilog.AspNetCore                1.*-*       1.0.1         
+   > NetLah.Extensions.Logging.Serilog                           1.*-*       1.0.2         
+   > NetLah.Extensions.Logging.Serilog.AspNetCore                1.*-*       1.0.2         
    > Newtonsoft.Json                                             13.0.*      13.0.4        
    > Npgsql                                                      9.*         9.0.4         
    > Npgsql.EntityFrameworkCore.PostgreSQL                       9.*         9.0.4         
@@ -547,8 +546,8 @@ Project 'Idp.WebApi' has the following package references
    > NetLah.Extensions.EventAggregator                           1.*-*       1.0.0-rc2     
    > NetLah.Extensions.HttpOverrides                             1.*-*       1.0.1         
    > NetLah.Extensions.Logging.Reference                         1.*-*       1.0.0         
-   > NetLah.Extensions.Logging.Serilog                           1.*-*       1.0.1         
-   > NetLah.Extensions.Logging.Serilog.AspNetCore                1.*-*       1.0.1         
+   > NetLah.Extensions.Logging.Serilog                           1.*-*       1.0.2         
+   > NetLah.Extensions.Logging.Serilog.AspNetCore                1.*-*       1.0.2         
    > Newtonsoft.Json                                             13.0.*      13.0.4        
    > Npgsql                                                      9.*         9.0.4         
    > Npgsql.EntityFrameworkCore.PostgreSQL                       9.*         9.0.4         

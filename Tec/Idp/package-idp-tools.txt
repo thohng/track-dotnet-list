@@ -9,7 +9,7 @@ Project 'Idp.Tools' has the following package references
    > MinVer                                                    6.*         6.0.0      
    > NetLah.AssemblyInfo.BuildTime.Target                      1.*         1.0.0      
    > NetLah.Extensions.CommandLineUtils                        0.*-*       0.1.0-a1.2 
-   > NetLah.Extensions.Logging.Serilog                         1.*-*       1.0.1      
+   > NetLah.Extensions.Logging.Serilog                         1.*-*       1.0.2      
    > Npgsql.EntityFrameworkCore.PostgreSQL                     10.*        10.0.0     
 
    Transitive Package                                             Resolved      
@@ -50,7 +50,7 @@ Project 'Idp.Tools' has the following package references
    > Microsoft.Extensions.Configuration.Json                      10.0.0        
    > Microsoft.Extensions.DependencyInjection                     10.0.0        
    > Microsoft.Extensions.DependencyInjection.Abstractions        10.0.0        
-   > Microsoft.Extensions.DependencyModel                         9.0.0         
+   > Microsoft.Extensions.DependencyModel                         10.0.0        
    > Microsoft.Extensions.Diagnostics.Abstractions                10.0.0        
    > Microsoft.Extensions.FileProviders.Abstractions              10.0.0        
    > Microsoft.Extensions.FileProviders.Physical                  10.0.0        
@@ -93,10 +93,10 @@ Project 'Idp.Tools' has the following package references
    > Npgsql                                                       10.0.0        
    > Pipelines.Sockets.Unofficial                                 2.2.8         
    > RabbitMQ.Client                                              6.2.2         
-   > Serilog                                                      4.2.0         
-   > Serilog.Extensions.Logging                                   9.0.0         
-   > Serilog.Settings.Configuration                               9.0.0         
-   > Serilog.Sinks.Console                                        6.0.0         
+   > Serilog                                                      4.3.0         
+   > Serilog.Extensions.Logging                                   10.0.0        
+   > Serilog.Settings.Configuration                               10.0.0        
+   > Serilog.Sinks.Console                                        6.1.1         
    > StackExchange.Redis                                          2.7.27        
    > Std.UriTemplate                                              2.0.1         
    > System.ClientModel                                           1.8.0         
@@ -120,7 +120,7 @@ Project 'Idp.Tools' has the following package references
    > MinVer                                                    6.*         6.0.0     
    > NetLah.AssemblyInfo.BuildTime.Target                      1.*         1.0.0     
    > NetLah.Extensions.CommandLineUtils                        0.*-*       0.1.0-a1.2
-   > NetLah.Extensions.Logging.Serilog                         1.*-*       1.0.1     
+   > NetLah.Extensions.Logging.Serilog                         1.*-*       1.0.2     
    > Npgsql.EntityFrameworkCore.PostgreSQL                     7.*         7.0.18    
 
    Transitive Package                                             Resolved      
@@ -128,11 +128,10 @@ Project 'Idp.Tools' has the following package references
    > Azure.Communication.Email                                    1.1.0         
    > Azure.Core                                                   1.50.0        
    > Azure.Identity                                               1.11.4        
-   > Duende.IdentityModel                                         7.1.0         
    > EnergyCompany.ApiModel                                       1.0.0-preview1
    > EnergyCompany.EnergyPlatform.ProfileModel                    1.0.0-preview1
    > Humanizer.Core                                               2.14.1        
-   > IdentityModel                                                6.0.0         
+   > IdentityModel                                                7.0.0         
    > Microsoft.AspNetCore.Authentication.OpenIdConnect            6.0.0         
    > Microsoft.AspNetCore.Cryptography.Internal                   8.0.22        
    > Microsoft.AspNetCore.Cryptography.KeyDerivation              8.0.22        
@@ -240,7 +239,7 @@ Project 'Idp.Tools' has the following package references
    > MinVer                                                    6.*         6.0.0     
    > NetLah.AssemblyInfo.BuildTime.Target                      1.*         1.0.0     
    > NetLah.Extensions.CommandLineUtils                        0.*-*       0.1.0-a1.2
-   > NetLah.Extensions.Logging.Serilog                         1.*-*       1.0.1     
+   > NetLah.Extensions.Logging.Serilog                         1.*-*       1.0.2     
    > Npgsql.EntityFrameworkCore.PostgreSQL                     9.*         9.0.4     
 
    Transitive Package                                             Resolved      
@@ -357,7 +356,7 @@ Project 'Idp.Tools' has the following package references
    > MinVer                                                    6.*         6.0.0     
    > NetLah.AssemblyInfo.BuildTime.Target                      1.*         1.0.0     
    > NetLah.Extensions.CommandLineUtils                        0.*-*       0.1.0-a1.2
-   > NetLah.Extensions.Logging.Serilog                         1.*-*       1.0.1     
+   > NetLah.Extensions.Logging.Serilog                         1.*-*       1.0.2     
    > Npgsql.EntityFrameworkCore.PostgreSQL                     9.*         9.0.4     
 
    Transitive Package                                             Resolved      
