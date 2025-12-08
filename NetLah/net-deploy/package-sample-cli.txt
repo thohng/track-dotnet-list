@@ -1,0 +1,151 @@
+  Determining projects to restore...
+C:\Work\NetLah\dotnet8\net-deploy\samples\SampleClient\SampleClient.csproj : warning NU1902: Package 'Azure.Identity' 1.10.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9
+C:\Work\NetLah\dotnet8\net-deploy\samples\SampleClient\SampleClient.csproj : warning NU1902: Package 'Azure.Identity' 1.10.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv
+C:\Work\NetLah\dotnet8\net-deploy\samples\SampleClient\SampleClient.csproj : warning NU1902: Package 'Microsoft.Identity.Client' 4.54.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9
+C:\Work\NetLah\dotnet8\net-deploy\samples\SampleClient\SampleClient.csproj : warning NU1901: Package 'Microsoft.Identity.Client' 4.54.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-x674-v45j-fwxw
+  All projects are up-to-date for restore.
+Project 'SampleClient' has the following package references
+   [net10.0]: 
+   Top-level Package                           Requested   Resolved
+   > MinVer                                    6.*         6.0.0   
+   > NetLah.AssemblyInfo.BuildTime.Target      1.*         1.0.0   
+
+   Transitive Package                                             Resolved  
+   > Azure.Core                                                   1.35.0    
+   > Azure.Core.Amqp                                              1.0.0     
+   > Azure.Identity                                               1.10.2    
+   > Azure.Messaging.ServiceBus                                   7.0.0     
+   > CommunityToolkit.HighPerformance                             8.4.0     
+   > Microsoft.Azure.Amqp                                         2.4.8     
+   > Microsoft.Bcl.AsyncInterfaces                                1.1.1     
+   > Microsoft.Extensions.Configuration                           10.0.0    
+   > Microsoft.Extensions.Configuration.Abstractions              10.0.0    
+   > Microsoft.Extensions.Configuration.Binder                    10.0.0    
+   > Microsoft.Extensions.Configuration.CommandLine               10.0.0    
+   > Microsoft.Extensions.Configuration.EnvironmentVariables      10.0.0    
+   > Microsoft.Extensions.Configuration.FileExtensions            10.0.0    
+   > Microsoft.Extensions.Configuration.Json                      10.0.0    
+   > Microsoft.Extensions.Configuration.UserSecrets               10.0.0    
+   > Microsoft.Extensions.DependencyInjection                     10.0.0    
+   > Microsoft.Extensions.DependencyInjection.Abstractions        10.0.0    
+   > Microsoft.Extensions.DependencyModel                         10.0.0    
+   > Microsoft.Extensions.Diagnostics.Abstractions                10.0.0    
+   > Microsoft.Extensions.FileProviders.Abstractions              10.0.0    
+   > Microsoft.Extensions.FileProviders.Physical                  10.0.0    
+   > Microsoft.Extensions.FileSystemGlobbing                      10.0.0    
+   > Microsoft.Extensions.Hosting.Abstractions                    10.0.0    
+   > Microsoft.Extensions.Logging                                 10.0.0    
+   > Microsoft.Extensions.Logging.Abstractions                    10.0.0    
+   > Microsoft.Extensions.Options                                 10.0.0    
+   > Microsoft.Extensions.Primitives                              10.0.0    
+   > Microsoft.Identity.Client                                    4.54.1    
+   > Microsoft.Identity.Client.Extensions.Msal                    2.31.0    
+   > Microsoft.IdentityModel.Abstractions                         6.22.0    
+   > NetLah.Extensions.CommandLineUtils                           0.1.0-a1.2
+   > NetLah.Extensions.Configuration                              1.0.1     
+   > NetLah.Extensions.Logging.Reference                          1.0.0     
+   > NetLah.Extensions.Logging.Serilog                            1.0.2     
+   > Serilog                                                      4.3.0     
+   > Serilog.Extensions.Logging                                   10.0.0    
+   > Serilog.Settings.Configuration                               10.0.0    
+   > Serilog.Sinks.Console                                        6.1.1     
+   > System.IO.FileSystem.AccessControl                           5.0.0     
+   > System.Memory.Data                                           10.0.0    
+   > System.Security.Cryptography.ProtectedData                   4.7.0     
+
+   [net8.0]: 
+   Top-level Package                           Requested   Resolved
+   > MinVer                                    6.*         6.0.0   
+   > NetLah.AssemblyInfo.BuildTime.Target      1.*         1.0.0   
+
+   Transitive Package                                             Resolved  
+   > Azure.Core                                                   1.35.0    
+   > Azure.Core.Amqp                                              1.0.0     
+   > Azure.Identity                                               1.10.2    
+   > Azure.Messaging.ServiceBus                                   7.0.0     
+   > CommunityToolkit.HighPerformance                             8.4.0     
+   > Microsoft.Azure.Amqp                                         2.4.8     
+   > Microsoft.Bcl.AsyncInterfaces                                1.1.1     
+   > Microsoft.Extensions.Configuration                           8.0.0     
+   > Microsoft.Extensions.Configuration.Abstractions              8.0.0     
+   > Microsoft.Extensions.Configuration.Binder                    8.0.0     
+   > Microsoft.Extensions.Configuration.CommandLine               8.0.0     
+   > Microsoft.Extensions.Configuration.EnvironmentVariables      8.0.0     
+   > Microsoft.Extensions.Configuration.FileExtensions            8.0.0     
+   > Microsoft.Extensions.Configuration.Json                      8.0.0     
+   > Microsoft.Extensions.Configuration.UserSecrets               8.0.0     
+   > Microsoft.Extensions.DependencyInjection                     8.0.0     
+   > Microsoft.Extensions.DependencyInjection.Abstractions        8.0.0     
+   > Microsoft.Extensions.DependencyModel                         8.0.0     
+   > Microsoft.Extensions.Diagnostics.Abstractions                8.0.0     
+   > Microsoft.Extensions.FileProviders.Abstractions              8.0.0     
+   > Microsoft.Extensions.FileProviders.Physical                  8.0.0     
+   > Microsoft.Extensions.FileSystemGlobbing                      8.0.0     
+   > Microsoft.Extensions.Hosting.Abstractions                    8.0.0     
+   > Microsoft.Extensions.Logging                                 8.0.0     
+   > Microsoft.Extensions.Logging.Abstractions                    8.0.0     
+   > Microsoft.Extensions.Options                                 8.0.0     
+   > Microsoft.Extensions.Options.ConfigurationExtensions         8.0.0     
+   > Microsoft.Extensions.Primitives                              8.0.0     
+   > Microsoft.Identity.Client                                    4.54.1    
+   > Microsoft.Identity.Client.Extensions.Msal                    2.31.0    
+   > Microsoft.IdentityModel.Abstractions                         6.22.0    
+   > NetLah.Extensions.CommandLineUtils                           0.1.0-a1.2
+   > NetLah.Extensions.Configuration                              1.0.1     
+   > NetLah.Extensions.Logging.Reference                          1.0.0     
+   > NetLah.Extensions.Logging.Serilog                            1.0.0     
+   > Serilog                                                      3.1.1     
+   > Serilog.Extensions.Logging                                   8.0.0     
+   > Serilog.Settings.Configuration                               8.0.0     
+   > Serilog.Sinks.Console                                        5.0.0     
+   > System.Memory.Data                                           8.0.0     
+   > System.Security.Cryptography.ProtectedData                   4.7.0     
+
+   [net9.0]: 
+   Top-level Package                           Requested   Resolved
+   > MinVer                                    6.*         6.0.0   
+   > NetLah.AssemblyInfo.BuildTime.Target      1.*         1.0.0   
+
+   Transitive Package                                             Resolved  
+   > Azure.Core                                                   1.35.0    
+   > Azure.Core.Amqp                                              1.0.0     
+   > Azure.Identity                                               1.10.2    
+   > Azure.Messaging.ServiceBus                                   7.0.0     
+   > CommunityToolkit.HighPerformance                             8.4.0     
+   > Microsoft.Azure.Amqp                                         2.4.8     
+   > Microsoft.Bcl.AsyncInterfaces                                1.1.1     
+   > Microsoft.Extensions.Configuration                           9.0.0     
+   > Microsoft.Extensions.Configuration.Abstractions              9.0.0     
+   > Microsoft.Extensions.Configuration.Binder                    9.0.0     
+   > Microsoft.Extensions.Configuration.CommandLine               9.0.0     
+   > Microsoft.Extensions.Configuration.EnvironmentVariables      9.0.0     
+   > Microsoft.Extensions.Configuration.FileExtensions            9.0.0     
+   > Microsoft.Extensions.Configuration.Json                      9.0.0     
+   > Microsoft.Extensions.Configuration.UserSecrets               9.0.0     
+   > Microsoft.Extensions.DependencyInjection                     9.0.0     
+   > Microsoft.Extensions.DependencyInjection.Abstractions        9.0.0     
+   > Microsoft.Extensions.DependencyModel                         9.0.0     
+   > Microsoft.Extensions.Diagnostics.Abstractions                9.0.0     
+   > Microsoft.Extensions.FileProviders.Abstractions              9.0.0     
+   > Microsoft.Extensions.FileProviders.Physical                  9.0.0     
+   > Microsoft.Extensions.FileSystemGlobbing                      9.0.0     
+   > Microsoft.Extensions.Hosting.Abstractions                    9.0.0     
+   > Microsoft.Extensions.Logging                                 9.0.0     
+   > Microsoft.Extensions.Logging.Abstractions                    9.0.0     
+   > Microsoft.Extensions.Options                                 9.0.0     
+   > Microsoft.Extensions.Options.ConfigurationExtensions         9.0.0     
+   > Microsoft.Extensions.Primitives                              9.0.0     
+   > Microsoft.Identity.Client                                    4.54.1    
+   > Microsoft.Identity.Client.Extensions.Msal                    2.31.0    
+   > Microsoft.IdentityModel.Abstractions                         6.22.0    
+   > NetLah.Extensions.CommandLineUtils                           0.1.0-a1.2
+   > NetLah.Extensions.Configuration                              1.0.1     
+   > NetLah.Extensions.Logging.Reference                          1.0.0     
+   > NetLah.Extensions.Logging.Serilog                            1.0.0     
+   > Serilog                                                      4.2.0     
+   > Serilog.Extensions.Logging                                   9.0.0     
+   > Serilog.Settings.Configuration                               9.0.0     
+   > Serilog.Sinks.Console                                        6.0.0     
+   > System.Memory.Data                                           9.0.0     
+   > System.Security.Cryptography.ProtectedData                   4.7.0     
+

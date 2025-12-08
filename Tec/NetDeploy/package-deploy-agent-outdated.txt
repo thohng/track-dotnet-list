@@ -1,0 +1,154 @@
+  Determining projects to restore...
+C:\Work\DevOps\TEC\NetDeploy\src\Agent\Agent.csproj : warning NU1902: Package 'Azure.Identity' 1.10.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9
+C:\Work\DevOps\TEC\NetDeploy\src\Agent\Agent.csproj : warning NU1902: Package 'Azure.Identity' 1.10.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv
+C:\Work\DevOps\TEC\NetDeploy\src\Agent\Agent.csproj : warning NU1902: Package 'Microsoft.Identity.Client' 4.54.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9
+C:\Work\DevOps\TEC\NetDeploy\src\Agent\Agent.csproj : warning NU1901: Package 'Microsoft.Identity.Client' 4.54.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-x674-v45j-fwxw
+C:\Work\DevOps\TEC\NetDeploy\src\Agent\Agent.csproj : warning NU1904: Package 'System.Drawing.Common' 4.7.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-rxg9-xrhp-64gj
+  All projects are up-to-date for restore.
+
+The following sources were used:
+   https://api.nuget.org/v3/index.json
+
+Project `Agent` has the following updates to its packages
+   [net10.0]: 
+   Top-level Package              Requested    Resolved     Latest                  
+   > NetLah.Deployment.Agent      0.6.0-a1.1   0.6.0-a1.1   Not found at the sources
+
+   Transitive Package                                                  Resolved     Latest                  
+   > Azure.Core                                                        1.35.0       1.50.0                  
+   > Azure.Core.Amqp                                                   1.0.0        1.3.1                   
+   > Azure.Identity                                                    1.10.2       1.17.1                  
+   > Azure.Messaging.ServiceBus                                        7.0.0        7.20.1                  
+   > Microsoft.ApplicationInsights                                     2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.AspNetCore                          2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.DependencyCollector                 2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.EventCounterCollector               2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.PerfCounterCollector                2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.WindowsServer                       2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.18.0       2.23.0                  
+   > Microsoft.Azure.Amqp                                              2.4.8        2.7.0                   
+   > Microsoft.Bcl.AsyncInterfaces                                     1.1.1        10.0.0                  
+   > Microsoft.Extensions.Logging.ApplicationInsights                  2.18.0       2.23.0                  
+   > Microsoft.Identity.Client                                         4.54.1       4.79.2                  
+   > Microsoft.Identity.Client.Extensions.Msal                         2.31.0       4.79.2                  
+   > Microsoft.IdentityModel.Abstractions                              6.22.0       8.15.0                  
+   > Microsoft.NETCore.Platforms                                       3.1.0        7.0.4                   
+   > Microsoft.Win32.SystemEvents                                      4.7.0        10.0.0                  
+   > NetLah.Deployment.Abstractions                                    0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Agent.GuiService                                0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Agent.ServiceModel                              0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.AzureUtils                                      0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Common                                          0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Hosting                                         0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.ServiceModel                                    0.6.0-a1.1   Not found at the sources
+   > System.Configuration.ConfigurationManager                         4.7.0        10.0.0                  
+   > System.Diagnostics.PerformanceCounter                             4.7.0        10.0.0                  
+   > System.Drawing.Common                                             4.7.0        10.0.0                  
+   > System.Security.Cryptography.ProtectedData                        4.7.0        10.0.0                  
+   > System.Security.Permissions                                       4.7.0        10.0.0                  
+   > System.Windows.Extensions                                         4.7.0        10.0.0                  
+
+   [net8.0]: 
+   Top-level Package              Requested    Resolved     Latest                  
+   > NetLah.Deployment.Agent      0.6.0-a1.1   0.6.0-a1.1   Not found at the sources
+
+   Transitive Package                                                  Resolved     Latest                  
+   > Azure.Core                                                        1.35.0       1.50.0                  
+   > Azure.Core.Amqp                                                   1.0.0        1.3.1                   
+   > Azure.Identity                                                    1.10.2       1.17.1                  
+   > Azure.Messaging.ServiceBus                                        7.0.0        7.20.1                  
+   > Microsoft.ApplicationInsights                                     2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.AspNetCore                          2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.DependencyCollector                 2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.EventCounterCollector               2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.PerfCounterCollector                2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.WindowsServer                       2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.18.0       2.23.0                  
+   > Microsoft.AspNetCore.Authentication.Certificate                   8.0.0        10.0.0                  
+   > Microsoft.Azure.Amqp                                              2.4.8        2.7.0                   
+   > Microsoft.Bcl.AsyncInterfaces                                     1.1.1        10.0.0                  
+   > Microsoft.Extensions.DependencyModel                              8.0.0        10.0.0                  
+   > Microsoft.Extensions.Hosting.Systemd                              8.0.0        10.0.0                  
+   > Microsoft.Extensions.Hosting.WindowsServices                      8.0.0        10.0.0                  
+   > Microsoft.Extensions.Logging.ApplicationInsights                  2.18.0       2.23.0                  
+   > Microsoft.Identity.Client                                         4.54.1       4.79.2                  
+   > Microsoft.Identity.Client.Extensions.Msal                         2.31.0       4.79.2                  
+   > Microsoft.IdentityModel.Abstractions                              6.22.0       8.15.0                  
+   > Microsoft.NETCore.Platforms                                       3.1.0        7.0.4                   
+   > Microsoft.Win32.SystemEvents                                      4.7.0        10.0.0                  
+   > NetLah.Deployment.Abstractions                                    0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Agent.GuiService                                0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Agent.ServiceModel                              0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.AzureUtils                                      0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Common                                          0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Hosting                                         0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.ServiceModel                                    0.6.0-a1.1   Not found at the sources
+   > Serilog                                                           3.1.1        4.3.0                   
+   > Serilog.AspNetCore                                                8.0.0        10.0.0                  
+   > Serilog.Extensions.Hosting                                        8.0.0        10.0.0                  
+   > Serilog.Extensions.Logging                                        8.0.0        10.0.0                  
+   > Serilog.Formatting.Compact                                        2.0.0        3.0.0                   
+   > Serilog.Settings.Configuration                                    8.0.0        10.0.0                  
+   > Serilog.Sinks.Console                                             5.0.0        6.1.1                   
+   > Serilog.Sinks.Debug                                               2.0.0        3.0.0                   
+   > Serilog.Sinks.File                                                5.0.0        7.0.0                   
+   > System.Configuration.ConfigurationManager                         4.7.0        10.0.0                  
+   > System.Diagnostics.PerformanceCounter                             4.7.0        10.0.0                  
+   > System.Drawing.Common                                             4.7.0        10.0.0                  
+   > System.Memory.Data                                                8.0.0        10.0.0                  
+   > System.Security.Cryptography.ProtectedData                        4.7.0        10.0.0                  
+   > System.Security.Permissions                                       4.7.0        10.0.0                  
+   > System.ServiceProcess.ServiceController                           8.0.0        10.0.0                  
+   > System.Windows.Extensions                                         4.7.0        10.0.0                  
+
+   [net9.0]: 
+   Top-level Package              Requested    Resolved     Latest                  
+   > NetLah.Deployment.Agent      0.6.0-a1.1   0.6.0-a1.1   Not found at the sources
+
+   Transitive Package                                                  Resolved     Latest                  
+   > Azure.Core                                                        1.35.0       1.50.0                  
+   > Azure.Core.Amqp                                                   1.0.0        1.3.1                   
+   > Azure.Identity                                                    1.10.2       1.17.1                  
+   > Azure.Messaging.ServiceBus                                        7.0.0        7.20.1                  
+   > Microsoft.ApplicationInsights                                     2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.AspNetCore                          2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.DependencyCollector                 2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.EventCounterCollector               2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.PerfCounterCollector                2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.WindowsServer                       2.18.0       2.23.0                  
+   > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.18.0       2.23.0                  
+   > Microsoft.AspNetCore.Authentication.Certificate                   9.0.0        10.0.0                  
+   > Microsoft.Azure.Amqp                                              2.4.8        2.7.0                   
+   > Microsoft.Bcl.AsyncInterfaces                                     1.1.1        10.0.0                  
+   > Microsoft.Extensions.DependencyModel                              9.0.0        10.0.0                  
+   > Microsoft.Extensions.Hosting.Systemd                              9.0.0        10.0.0                  
+   > Microsoft.Extensions.Hosting.WindowsServices                      9.0.0        10.0.0                  
+   > Microsoft.Extensions.Logging.ApplicationInsights                  2.18.0       2.23.0                  
+   > Microsoft.Identity.Client                                         4.54.1       4.79.2                  
+   > Microsoft.Identity.Client.Extensions.Msal                         2.31.0       4.79.2                  
+   > Microsoft.IdentityModel.Abstractions                              6.22.0       8.15.0                  
+   > Microsoft.NETCore.Platforms                                       3.1.0        7.0.4                   
+   > Microsoft.Win32.SystemEvents                                      4.7.0        10.0.0                  
+   > NetLah.Deployment.Abstractions                                    0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Agent.GuiService                                0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Agent.ServiceModel                              0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.AzureUtils                                      0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Common                                          0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Hosting                                         0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.ServiceModel                                    0.6.0-a1.1   Not found at the sources
+   > Serilog                                                           4.2.0        4.3.0                   
+   > Serilog.AspNetCore                                                9.0.0        10.0.0                  
+   > Serilog.Extensions.Hosting                                        9.0.0        10.0.0                  
+   > Serilog.Extensions.Logging                                        9.0.0        10.0.0                  
+   > Serilog.Settings.Configuration                                    9.0.0        10.0.0                  
+   > Serilog.Sinks.Console                                             6.0.0        6.1.1                   
+   > Serilog.Sinks.File                                                6.0.0        7.0.0                   
+   > System.Configuration.ConfigurationManager                         4.7.0        10.0.0                  
+   > System.Diagnostics.PerformanceCounter                             4.7.0        10.0.0                  
+   > System.Drawing.Common                                             4.7.0        10.0.0                  
+   > System.Memory.Data                                                9.0.0        10.0.0                  
+   > System.Security.Cryptography.ProtectedData                        4.7.0        10.0.0                  
+   > System.Security.Permissions                                       4.7.0        10.0.0                  
+   > System.ServiceProcess.ServiceController                           9.0.0        10.0.0                  
+   > System.Windows.Extensions                                         4.7.0        10.0.0                  
+
