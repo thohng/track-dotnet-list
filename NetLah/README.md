@@ -24,3 +24,12 @@ dotnet package list --project src/WebApp --framework net9.0 --outdated --include
 dotnet package list --project src/WebApp --framework net10.0 --outdated --include-transitive > artifacts/packages/package-net10.0-webapp-outdated.txt
 dotnet package list --project src/WebApp --vulnerable --include-transitive > artifacts/packages/package-webapp-vulnerable.txt
 ```
+
+## .NET Deployment
+
+```
+dotnet list samples/SampleAgent package --include-transitive > C:\Work\ThoHo\track-dotnet-list\NetLah\net-deploy\package-sample-agent.txt
+dotnet list samples/SampleClient package --include-transitive > C:\Work\ThoHo\track-dotnet-list\NetLah\net-deploy\package-sample-cli.txt
+dotnet list samples/SampleAgent package --outdated --include-transitive > C:\Work\ThoHo\track-dotnet-list\NetLah\net-deploy\package-sample-agent-outdated.txt
+dotnet list samples/SampleClient package --outdated --include-transitive > C:\Work\ThoHo\track-dotnet-list\NetLah\net-deploy\package-sample-cli-outdated.txt
+```
