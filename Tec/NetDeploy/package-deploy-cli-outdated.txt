@@ -7,34 +7,34 @@ The following sources were used:
 Project `Cli` has the following updates to its packages
    [net10.0]: 
    Top-level Package               Requested    Resolved     Latest                  
-   > NetLah.Deployment.Client      0.6.0-a1.1   0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Client      0.6.0-a1.3   0.6.0-a1.3   Not found at the sources
 
    Transitive Package                          Resolved     Latest                  
-   > NetLah.Deployment.Abstractions            0.6.0-a1.1   Not found at the sources
-   > NetLah.Deployment.Agent.ServiceModel      0.6.0-a1.1   Not found at the sources
-   > NetLah.Deployment.AzureUtils              0.6.0-a1.1   Not found at the sources
-   > NetLah.Deployment.Common                  0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Abstractions            0.6.0-a1.3   Not found at the sources
+   > NetLah.Deployment.Agent.ServiceModel      0.6.0-a1.3   Not found at the sources
+   > NetLah.Deployment.AzureUtils              0.6.0-a1.3   Not found at the sources
+   > NetLah.Deployment.Common                  0.6.0-a1.3   Not found at the sources
    > NetLah.Extensions.CommandLineUtils        0.1.0-a1.2   Not found at the sources
 
    [net8.0]: 
    Top-level Package               Requested    Resolved     Latest                  
-   > NetLah.Deployment.Client      0.6.0-a1.1   0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Client      0.6.0-a1.3   0.6.0-a1.3   Not found at the sources
 
    Transitive Package                          Resolved     Latest                  
-   > NetLah.Deployment.Abstractions            0.6.0-a1.1   Not found at the sources
-   > NetLah.Deployment.Agent.ServiceModel      0.6.0-a1.1   Not found at the sources
-   > NetLah.Deployment.AzureUtils              0.6.0-a1.1   Not found at the sources
-   > NetLah.Deployment.Common                  0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Abstractions            0.6.0-a1.3   Not found at the sources
+   > NetLah.Deployment.Agent.ServiceModel      0.6.0-a1.3   Not found at the sources
+   > NetLah.Deployment.AzureUtils              0.6.0-a1.3   Not found at the sources
+   > NetLah.Deployment.Common                  0.6.0-a1.3   Not found at the sources
    > NetLah.Extensions.CommandLineUtils        0.1.0-a1.2   Not found at the sources
 
    [net9.0]: 
    Top-level Package               Requested    Resolved     Latest                  
-   > NetLah.Deployment.Client      0.6.0-a1.1   0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Client      0.6.0-a1.3   0.6.0-a1.3   Not found at the sources
 
    Transitive Package                          Resolved     Latest                  
-   > NetLah.Deployment.Abstractions            0.6.0-a1.1   Not found at the sources
-   > NetLah.Deployment.Agent.ServiceModel      0.6.0-a1.1   Not found at the sources
-   > NetLah.Deployment.AzureUtils              0.6.0-a1.1   Not found at the sources
-   > NetLah.Deployment.Common                  0.6.0-a1.1   Not found at the sources
+   > NetLah.Deployment.Abstractions            0.6.0-a1.3   Not found at the sources
+   > NetLah.Deployment.Agent.ServiceModel      0.6.0-a1.3   Not found at the sources
+   > NetLah.Deployment.AzureUtils              0.6.0-a1.3   Not found at the sources
+   > NetLah.Deployment.Common                  0.6.0-a1.3   Not found at the sources
    > NetLah.Extensions.CommandLineUtils        0.1.0-a1.2   Not found at the sources
 

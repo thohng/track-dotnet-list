@@ -9,9 +9,9 @@ Project `SampleAgent` has the following updates to its packages
    [net10.0]: No package updates available for this framework.
    [net8.0]: 
    Top-level Package                                      Requested   Resolved   Latest
-   > Microsoft.AspNetCore.Authentication.Certificate      8.*         8.0.22     10.0.0
+   > Microsoft.AspNetCore.Authentication.Certificate      8.*         8.0.22     10.0.1
 
    [net9.0]: 
    Top-level Package                                      Requested   Resolved   Latest
-   > Microsoft.AspNetCore.Authentication.Certificate      9.*         9.0.11     10.0.0
+   > Microsoft.AspNetCore.Authentication.Certificate      9.*         9.0.11     10.0.1
 
