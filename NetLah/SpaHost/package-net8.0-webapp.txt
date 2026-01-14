@@ -2,54 +2,48 @@
   All projects are up-to-date for restore.
 Project 'WebApp' has the following package references
    [net8.0]: 
-   Top-level Package                                            Requested   Resolved
-   > Azure.Identity                                             1.*         1.17.1  
-   > Microsoft.ApplicationInsights.AspNetCore                   2.*         2.23.0  
-   > Microsoft.AspNetCore.SpaServices.Extensions                8.*         8.0.22  
-   > Microsoft.Bcl.AsyncInterfaces                              10.*        10.0.0  
-   > Microsoft.Extensions.Configuration.Abstractions            10.*        10.0.0  
-   > Microsoft.Extensions.Configuration.Binder                  10.*        10.0.0  
-   > Microsoft.Extensions.DependencyInjection                   10.*        10.0.0  
-   > Microsoft.Extensions.DependencyInjection.Abstractions      10.*        10.0.0  
-   > Microsoft.Extensions.DependencyModel                       10.*        10.0.0  
-   > Microsoft.Extensions.Diagnostics.Abstractions              10.*        10.0.0  
-   > Microsoft.Extensions.FileProviders.Abstractions            10.*        10.0.0  
-   > Microsoft.Extensions.Hosting.Abstractions                  10.*        10.0.0  
-   > Microsoft.Extensions.Logging                               10.*        10.0.0  
-   > Microsoft.Extensions.Logging.Abstractions                  10.*        10.0.0  
-   > Microsoft.Extensions.Options                               10.*        10.0.0  
-   > Microsoft.Extensions.Primitives                            10.*        10.0.0  
-   > Microsoft.Identity.Client.Extensions.Msal                  4.*         4.79.2  
-   > Microsoft.IdentityModel.Abstractions                       8.*         8.15.0  
-   > Microsoft.Win32.SystemEvents                               10.*        10.0.0  
-   > MinVer                                                     6.*         6.0.0   
-   > NetLah.Abstractions                                        1.*         1.0.0   
-   > NetLah.AssemblyInfo.BuildTime.Target                       1.*         1.0.0   
-   > NetLah.Extensions.Configuration                            1.*-*       1.0.1   
-   > NetLah.Extensions.HttpOverrides                            1.*-*       1.0.0   
-   > NetLah.Extensions.Logging.Reference                        1.*-*       1.0.0   
-   > NetLah.Extensions.Logging.Serilog                          1.*-*       1.0.1   
-   > NetLah.Extensions.Logging.Serilog.AspNetCore               1.*-*       1.0.1   
-   > Serilog                                                    4.*         4.3.0   
-   > Serilog.AspNetCore                                         9.*         9.0.0   
-   > Serilog.Enrichers.CorrelationId                            3.*         3.0.1   
-   > Serilog.Enrichers.Environment                              3.*         3.0.1   
-   > Serilog.Enrichers.Thread                                   4.*         4.0.0   
-   > Serilog.Extensions.Hosting                                 9.*         9.0.0   
-   > Serilog.Extensions.Logging                                 10.*        10.0.0  
-   > Serilog.Formatting.Compact                                 3.*         3.0.0   
-   > Serilog.Settings.Configuration                             9.*         9.0.0   
-   > Serilog.Sinks.Console                                      6.*         6.1.1   
-   > Serilog.Sinks.Debug                                        3.*         3.0.0   
-   > Serilog.Sinks.File                                         7.*         7.0.0   
-   > Serilog.Sinks.PeriodicBatching                             5.*         5.0.0   
-   > Serilog.Sinks.Seq                                          9.*         9.0.0   
-   > System.ClientModel                                         1.*         1.8.1   
-   > System.Configuration.ConfigurationManager                  10.*        10.0.0  
-   > System.Diagnostics.DiagnosticSource                        10.*        10.0.0  
-   > System.Diagnostics.PerformanceCounter                      10.*        10.0.0  
-   > System.Drawing.Common                                      10.*        10.0.0  
-   > System.Memory.Data                                         10.*        10.0.0  
+   Top-level Package                                    Requested   Resolved
+   > Azure.Identity                                     1.*         1.17.1  
+   > Microsoft.ApplicationInsights.AspNetCore           2.*         2.23.0  
+   > Microsoft.AspNetCore.SpaServices.Extensions        8.*         8.0.23  
+   > Microsoft.Bcl.AsyncInterfaces                      10.*        10.0.2  
+   > Microsoft.Extensions.Configuration                 10.*        10.0.2  
+   > Microsoft.Extensions.Configuration.Binder          10.*        10.0.2  
+   > Microsoft.Extensions.DependencyInjection           10.*        10.0.2  
+   > Microsoft.Extensions.DependencyModel               10.*        10.0.2  
+   > Microsoft.Extensions.Diagnostics.Abstractions      10.*        10.0.2  
+   > Microsoft.Extensions.Hosting.Abstractions          10.*        10.0.2  
+   > Microsoft.Extensions.Logging                       10.*        10.0.2  
+   > Microsoft.Identity.Client.Extensions.Msal          4.*         4.81.0  
+   > Microsoft.IdentityModel.Abstractions               8.*         8.15.0  
+   > Microsoft.Win32.SystemEvents                       10.*        10.0.2  
+   > MinVer                                             7.*         7.0.0   
+   > NetLah.Abstractions                                1.*         1.0.0   
+   > NetLah.AssemblyInfo.BuildTime.Target               1.*         1.0.0   
+   > NetLah.Extensions.Configuration                    1.*-*       1.0.1   
+   > NetLah.Extensions.HttpOverrides                    1.*-*       1.0.1   
+   > NetLah.Extensions.Logging.Reference                1.*-*       1.0.0   
+   > NetLah.Extensions.Logging.Serilog                  1.*-*       1.0.2   
+   > NetLah.Extensions.Logging.Serilog.AspNetCore       1.*-*       1.0.2   
+   > Serilog                                            4.*         4.3.0   
+   > Serilog.AspNetCore                                 10.*        10.0.0  
+   > Serilog.Enrichers.CorrelationId                    3.*         3.0.1   
+   > Serilog.Enrichers.Environment                      3.*         3.0.1   
+   > Serilog.Enrichers.Thread                           4.*         4.0.0   
+   > Serilog.Extensions.Hosting                         10.*        10.0.0  
+   > Serilog.Extensions.Logging                         10.*        10.0.0  
+   > Serilog.Formatting.Compact                         3.*         3.0.0   
+   > Serilog.Settings.Configuration                     10.*        10.0.0  
+   > Serilog.Sinks.Console                              6.*         6.1.1   
+   > Serilog.Sinks.Debug                                3.*         3.0.0   
+   > Serilog.Sinks.File                                 7.*         7.0.0   
+   > Serilog.Sinks.PeriodicBatching                     5.*         5.0.0   
+   > Serilog.Sinks.Seq                                  9.*         9.0.0   
+   > System.ClientModel                                 1.*         1.8.1   
+   > System.Configuration.ConfigurationManager          10.*        10.0.2  
+   > System.Diagnostics.PerformanceCounter              10.*        10.0.2  
+   > System.Drawing.Common                              10.*        10.0.2  
+   > System.Memory.Data                                 10.*        10.0.2  
 
    Transitive Package                                                  Resolved
    > Azure.Core                                                        1.50.0  
@@ -59,13 +53,19 @@ Project 'WebApp' has the following package references
    > Microsoft.ApplicationInsights.PerfCounterCollector                2.23.0  
    > Microsoft.ApplicationInsights.WindowsServer                       2.23.0  
    > Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel      2.23.0  
-   > Microsoft.Extensions.Configuration                                10.0.0  
+   > Microsoft.Extensions.Configuration.Abstractions                   10.0.2  
+   > Microsoft.Extensions.DependencyInjection.Abstractions             10.0.2  
+   > Microsoft.Extensions.FileProviders.Abstractions                   10.0.2  
+   > Microsoft.Extensions.Logging.Abstractions                         10.0.2  
    > Microsoft.Extensions.Logging.ApplicationInsights                  2.23.0  
-   > Microsoft.Identity.Client                                         4.79.2  
-   > System.Diagnostics.EventLog                                       10.0.0  
-   > System.IO.Pipelines                                               10.0.0  
-   > System.Security.Cryptography.ProtectedData                        10.0.0  
-   > System.Text.Encodings.Web                                         10.0.0  
-   > System.Text.Json                                                  10.0.0  
-   > System.Threading.AccessControl                                    10.0.0  
+   > Microsoft.Extensions.Options                                      10.0.2  
+   > Microsoft.Extensions.Primitives                                   10.0.2  
+   > Microsoft.Identity.Client                                         4.81.0  
+   > System.Diagnostics.DiagnosticSource                               10.0.2  
+   > System.Diagnostics.EventLog                                       10.0.2  
+   > System.IO.Pipelines                                               10.0.2  
+   > System.Security.Cryptography.ProtectedData                        10.0.2  
+   > System.Text.Encodings.Web                                         10.0.2  
+   > System.Text.Json                                                  10.0.2  
+   > System.Threading.AccessControl                                    10.0.2  
 
